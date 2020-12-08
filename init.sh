@@ -16,3 +16,5 @@ pip install gdown
 gdown https://drive.google.com/u/0/uc?id=1lq5UcxRWnZ5XUQzYD2lW2vFYBBFHdLff
 cp RRDB_ESRGAN_x4.pth src/core/base_libs/ESRGAN/models/
 rm RRDB_ESRGAN_x4.pth
+rm requirements.txt
+pip freeze > requirements.txt
